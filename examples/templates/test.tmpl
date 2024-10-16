@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>my test html file</title>
+</head>
+<body>
+	<h1><tmpl_var name="testvariable"></h1>
+	this heading should be replaced by the template component.
+	<br />
+	<br />
+	<div style="width:100%">
+	<div style="float:left;background-color:yellow">Vorname:</div>
+	<div style="float:left;background-color:black;color:white">
+		<tmpl_var name="vorname">
+	</div>
+	</div>
+	<br />
+	<br />
+	db-user: <tmpl_var name="dbuser">
+	<br />
+	<br />
+	<h2>jetzt kommt die form:</h2>
+	<tmpl_var name="testform">
+</body>
+</html> 

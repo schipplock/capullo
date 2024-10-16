@@ -1,0 +1,5 @@
+msgid "more"
+msgstr "mehr"
+
+msgid "imprint"
+msgstr "Impressum"

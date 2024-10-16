@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title>my test html file</title>
+</head>
+<body>
+  <h1><tmpl_var name="header"></h1>
+  <ul>
+    <tmpl_loop name="customer">
+      <li><tmpl_var name="customername"> (<tmpl_var name="id">)</li>
+    </tmpl_loop>
+  </ul>
+</body>
+</html> 
